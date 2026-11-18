@@ -1,4 +1,23 @@
-# Assam history character sheets
+# Assam History Characters: character sheets and scenes from Pushyavarman to Tarun Gogoi
+
+> Character sheets and illustrated scenes for 328 people of Assam's history, from Pushyavarman to Tarun Gogoi, all driven by one CSV.
+
+**[Live site](https://axomrank.github.io/assam-history-characters/)** · [Part of AxomRank](https://github.com/axomrank)
+
+## At a glance
+
+- **328 people**, **331 scenes**, **190 places**, **38 realm extents**, **24 timeline events** and **7 periods**
+- **One data file:** `data/assam_history.csv` (one row per record, typed by the `type` column)
+- Planned sheets and scenes carry **design briefs**, ready to copy into image tools
+- Reference for AI art, video and the [AxomRank books](https://github.com/axomrank/assam-history-books)
+
+## Quick start
+
+```bash
+python3 -m http.server 8000   # open http://localhost:8000
+```
+
+## Overview
 
 A static library of character sheets for the people of Assam's history, from Pushyavarman to Tarun Gogoi,
 with the historical scenes they appear in. Live at https://axomrank.github.io/assam-history-characters/.
@@ -127,3 +146,32 @@ For non-commercial use only. Images and text: CC BY-NC-ND 4.0 (`LICENSE-CONTENT.
 which sends visitors on to `#/c/<id>`), `sitemap.xml` and `robots.txt`, and stamps `sw.js` with a version. `manifest.webmanifest`
 and `sw.js` make the site installable and readable offline (the app, data and any images already viewed). `assets/og.jpg` is the
 home-page preview image. The `#/map` page (shapes joined and cut with `assets/polygon-clipping.umd.min.js`, MIT) draws the places that have `lat`/`lon` on the Assam outline from `data/maps/`.
+
+## Roadmap: future improvements
+
+- [ ] Paint the scenes still marked `planned`, and draw the sheets still marked "sheet planned"
+- [ ] Move image masters to R2 or Git LFS. The repo is over 2 GB
+- [ ] Add Assamese summaries for each person
+- [ ] Cross-link people to the Ahom Kings lessons and to assam-history-map events
+- [ ] Add JSON-LD (Person, Place) on generated pages for search engines
+
+## For AI agents and contributors
+
+Read [AGENTS.md](AGENTS.md) and [CLAUDE.md](CLAUDE.md). `data/assam_history.csv` is the only source of truth. Keep it UTF-8 so Assamese names survive.
+
+Commit as the `axomrank` account. Keep changes small and reviewable, and run the repository's checks before pushing.
+
+## Part of AxomRank
+
+[AxomRank](https://axomrank.pages.dev) offers free, bilingual preparation for Assam government exams. Related repositories:
+
+- **Learn:** [axomrank.github.io](https://github.com/axomrank/axomrank.github.io) (the AxomRank learning app), [ahom-kings-lessons](https://github.com/axomrank/ahom-kings-lessons) (41 bilingual Ahom reign lessons), [floor-test-simulator](https://github.com/axomrank/floor-test-simulator) (parliamentary majority simulator)
+- **Explore Assam history:** [ahom-kingdom-history](https://github.com/axomrank/ahom-kingdom-history) (illustrated Ahom kingdom website), [assam-history-map](https://github.com/axomrank/assam-history-map) (year-by-year historical map), [assam-visual-archive](https://github.com/axomrank/assam-visual-archive) (gallery of Assam scenes and photographs), [assam-heritage-ai-art](https://github.com/axomrank/assam-heritage-ai-art) (AI art gallery of Assamese heritage)
+- **Open data:** [assam-exam-pyq](https://github.com/axomrank/assam-exam-pyq) (2,398 previous-year questions with answers), [assam-exam-syllabus](https://github.com/axomrank/assam-exam-syllabus) (syllabi for 12 recruitment boards), [assam-maps](https://github.com/axomrank/assam-maps) (map portal and GIS layers), [assam-history-sources](https://github.com/axomrank/assam-history-sources) (Kamarupa inscriptions and primary sources)
+- **Publishing and brand:** [axomrank-blog](https://github.com/axomrank/axomrank-blog) (exam guides built from real papers), [assam-history-books](https://github.com/axomrank/assam-history-books) (13-book history of Assam), [axomrank-brand-assets](https://github.com/axomrank/axomrank-brand-assets) (brand kit and social media library)
+
+## License and contact
+
+See [LICENSE](LICENSE), [LICENSE-CODE.md](LICENSE-CODE.md) and [LICENSE-CONTENT.txt](LICENSE-CONTENT.txt).
+
+Corrections and questions: open an issue in this repository. AxomRank is run by Angsuman Das (sole proprietor).

@@ -329,7 +329,7 @@ function viewLicence() {
     <ul><li>Sell the images, or put them in a product, book, course, advert or channel that earns money.</li>
     <li>Use them to train or fine-tune a commercial model.</li><li>Share edited or remixed versions of the images.</li></ul>
     <h2>The terms</h2>
-    <p>Images, thumbnails, catalogue text and site text: <a href="LICENSE-CONTENT.txt">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0</a> (CC BY-NC-ND 4.0). Code: <a href="LICENSE-CODE.md">PolyForm Noncommercial 1.0.0</a>. The summary file is <a href="LICENSE">LICENSE</a>. For commercial permission, <a href="https://github.com/axomrank/Assam-History-Characters/issues" rel="noopener">open an issue</a>.</p>
+    <p>Images, thumbnails, catalogue text and site text: <a href="LICENSE-CONTENT.txt">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0</a> (CC BY-NC-ND 4.0). Code: <a href="LICENSE-CODE.md">PolyForm Noncommercial 1.0.0</a>. The summary file is <a href="LICENSE">LICENSE</a>. For commercial permission, <a href="https://github.com/axomrank/assam-history-characters/issues" rel="noopener">open an issue</a>.</p>
     <h2>Not covered by this licence</h2>
     <ul><li><b>The Assam Accord scene (MOD-06)</b> uses a colourised photograph whose origin has not been identified. Do not reuse it; its rights are unknown.</li>
     <li><b>Maps</b>: the Map tab is the Assam Through Time atlas (<code>map/</code>); its geography, sources and licences are listed in <a href="map/data/maps/README.md">map/data/maps/README.md</a>.</li>

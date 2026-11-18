@@ -230,7 +230,7 @@ def main():
     sys.exit(1 if problems else 0)
 
 
-BASE = "https://axomrank.github.io/Assam-History-Characters/"
+BASE = "https://axomrank.github.io/assam-history-characters/"
 
 SHARE_PAGE = """<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">

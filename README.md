@@ -1,7 +1,7 @@
 # Assam history character sheets
 
 A static library of character sheets for the people of Assam's history, from Pushyavarman to Tarun Gogoi,
-with the historical scenes they appear in. Live at https://axomrank.github.io/Assam-History-Characters/.
+with the historical scenes they appear in. Live at https://axomrank.github.io/assam-history-characters/.
 Open `index.html`, or serve the folder with `python3 -m http.server`.
 
 ## One file holds all the data
